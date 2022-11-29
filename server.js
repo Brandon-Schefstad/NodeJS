@@ -1,5 +1,5 @@
-const http = require('http');
 require('dotenv').config();
+const http = require('http');
 
 const fs = require('fs/promises'); // Promise support!
 const hostname = '127.0.0.1';
